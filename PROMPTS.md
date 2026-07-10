@@ -91,9 +91,9 @@ Developer Journey Timeline
 
 Part 2 — Developer Journey Timeline (CSS)
 =====================================
-      Developer Journey [AI GENERATED]
+    Developer Journey [AI GENERATED]
 =======================================
-
+<style>
 :root {
     --primary: #002efc;
     --light: #e5e7eb;
@@ -237,3 +237,4 @@ Part 2 — Developer Journey Timeline (CSS)
     color: #666;
     line-height: 1.8;
 }
+</style>
