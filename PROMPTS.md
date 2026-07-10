@@ -1,240 +1,181 @@
 # assignment-1
 
 My PROMPT-
-"Act as a Senior Web Developer, I am working on a site named "DevConf2026" and created a full layout of the site and implemented it with HTML and CSS and JavaScript is not required for it. So after creating the site, I feel a missing of a section to make it more interesting. Could you give me the code for creating the Journey Roadmap section? 
-That must require- 
-1. Relevance to the site 
-2. Useful for the reader 
-3. Not much complex or easy layout 
+"Act as a Senior Web Developer, I am working on a site named "DevConf2026" and created a full layout of the site and implemented it with HTML and CSS and JavaScript is not required for it. So after creating the site, I feel a missing of a section to make it more interesting. Could you give me the code for creating the Journey Roadmap section?
+That must require-
+
+1. Relevance to the site
+2. Useful for the reader
+3. Not much complex or easy layout
 4. Great thinking"
 
 ChatGPT-
 That's a great addition for a DevConf website. However, the design you're describing (interactive timeline with elegant hover animations) is quite substantial—it will easily exceed the maximum response length I can generate in a single message.
 
-Part 1 — Developer Journey Timeline (HTML)
-=============================
+# Part 1 — Developer Journey Timeline (HTML)
+
 Developer Journey Timeline
-============================== 
+==============================
 
-<section class="journey">
+<!--========================================
+  Developer Journey Timeline [AI GENERATED]
+============================================ -->
 
-    <div class="section-title">
-        <span>Developer Journey</span>
-        <h2>Your Experience at DevConf2026</h2>
-        <p>
-            Every attendee follows an exciting journey—from registration to
-            becoming part of an inspiring developer community.
-        </p>
-    </div>
-    <div class="journey-grid">
-        <div class="journey-card">
-            <div class="step">01</div>
-            <div class="icon">
-                📝
-            </div>
-            <h3>Register</h3>
-            <p>
-                Secure your seat online and receive your conference ticket
-                instantly.
-            </p>
+<section class="timeline-section">
+        <div class="heading">
+          <span>Developer Journey</span>
+          <h2>Your DevConf2026 Experience</h2>
+          <p>
+            Follow every step of your conference journey from registration to
+            career growth.
+          </p>
         </div>
-        <div class="journey-card">
-            <div class="step">02</div>
-            <div class="icon">
-                🎟️
-            </div>
-            <h3>Check-In</h3>
-            <p>
-                Verify your ticket and receive your conference badge and welcome
-                kit.
-            </p>
-        </div>
-        <div class="journey-card">
-            <div class="step">03</div>
-            <div class="icon">
-                🎤
-            </div>
-            <h3>Keynote Sessions</h3>
-            <p>
-                Learn from world-class speakers sharing modern development
-                practices.
-            </p>
-        </div>
-        <div class="journey-card">
-            <div class="step">04</div>
-            <div class="icon">
-                💻
-            </div>
-            <h3>Hands-on Workshop</h3>
-            <p>
-                Participate in practical coding sessions and improve your real
-                development skills.
-            </p>
-        </div>
-        <div class="journey-card">
-            <div class="step">05</div>
-            <div class="icon">
-                🤝
-            </div>
-            <h3>Networking</h3>
-            <p>
-                Connect with developers, recruiters, founders and open-source
-                contributors.
-            </p>
-        </div>
-        <div class="journey-card">
-            <div class="step">06</div>
-            <div class="icon">
-                🚀
-            </div>
-            <h3>Grow Your Career</h3>
 
-Part 2 — Developer Journey Timeline (CSS)
-=====================================
+        <div class="timeline">
+          <div class="item left">
+            <div class="dot"></div>
+            <div class="content">
+              <div class="badge">Step 01</div>
+              <h3>📝 Register</h3>
+              <p>Reserve your seat and receive your confirmation ticket.</p>
+            </div>
+          </div>
+
+          <div class="item right">
+            <div class="dot"></div>
+            <div class="content">
+              <div class="badge">Step 02</div>
+              <h3>🎟️ Check-In</h3>
+              <p>Collect your badge and welcome kit at the venue.</p>
+            </div>
+          </div>
+
+          <div class="item left">
+            <div class="dot"></div>
+            <div class="content">
+              <div class="badge">Step 03</div>
+              <h3>🎤 Keynote Sessions</h3>
+              <p>Learn from industry experts and technology leaders.</p>
+            </div>
+          </div>
+
+          <div class="item right">
+            <div class="dot"></div>
+            <div class="content">
+              <div class="badge">Step 04</div>
+              <h3>💻 Workshops</h3>
+              <p>Build practical skills through hands-on coding sessions.</p>
+            </div>
+          </div>
+
+          <div class="item left">
+            <div class="dot"></div>
+            <div class="content">
+              <div class="badge">Step 05</div>
+              <h3>🤝 Networking</h3>
+              <p>
+                Meet developers, founders and recruiters from leading companies.
+              </p>
+            </div>
+          </div>
+
+          <div class="item right">
+            <div class="dot"></div>
+            <div class="content">
+              <div class="badge">Step 06</div>
+              <h3>🚀 Career Growth</h3>
+              <p>
+                Leave inspired with new knowledge, connections and
+                opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+</section>
+
+# Part 2 — Developer Journey Timeline (CSS)
+
     Developer Journey [AI GENERATED]
+
 =======================================
+
 <style>
-:root {
-    --primary: #002efc;
-    --light: #e5e7eb;
-    --dark: #111827;
-    --white: #ffffff;
+:root{
+ --primary:#002efc;
+ --light:#E5E7EB;
+ --dark:#111827;
+ --text:#6b7280;
 }
+*{margin:0;padding:0;box-sizing:border-box}
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.timeline-section{
+ max-width:1100px;
+ margin:80px auto;
+ padding:20px;
 }
+.heading{text-align:center;margin-bottom:60px}
+.heading span{
+ display:inline-block;padding:8px 18px;border-radius:25px;
+ background:#002efc12;color:var(--primary);font-weight:bold;
+}
+.heading h2{font-size:42px;margin:20px 0}
+.heading p{max-width:700px;margin:auto;color:var(--text);line-height:1.7}
 
-.journey {
-    width: min(1200px, 92%);
-    margin: 100px auto;
+.timeline{position:relative;padding:20px 0}
+.timeline:before{
+ content:"";
+ position:absolute;
+ left:50%;
+ top:0;
+ transform:translateX(-50%);
+ width:4px;
+ height:100%;
+ background:linear-gradient(#002efc,#7ea0ff,#002efc);
+ border-radius:10px;
 }
-
-.section-title {
-    text-align: center;
-    margin-bottom: 70px;
+.item{
+ position:relative;
+ width:50%;
+ padding:20px 40px;
 }
-
-.section-title span {
-    display: inline-block;
-    background: #002efc10;
-    color: var(--primary);
-    padding: 10px 22px;
-    border-radius: 30px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
+.item.left{left:0;text-align:right;}
+.item.right{left:50%;}
+.content{
+ background:#fff;
+ border:1px solid var(--light);
+ border-radius:18px;
+ padding:24px;
+ position:relative;
+ transition:.35s;
 }
-
-.section-title h2 {
-    font-size: 44px;
-    margin: 22px 0;
+.content:hover{
+ transform:translateY(-8px);
+ border-color:var(--primary);
+ box-shadow:0 15px 35px rgba(0,46,252,.18);
 }
-
-.section-title p {
-    max-width: 700px;
-    margin: auto;
-    color: #666;
-    line-height: 1.8;
+.dot{
+ position:absolute;
+ top:38px;
+ width:22px;height:22px;
+ background:var(--primary);
+ border:5px solid #fff;
+ border-radius:50%;
+ box-shadow:0 0 0 5px #dbe4ff;
+ z-index:2;
 }
-
-.journey-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 70px 35px;
-    position: relative;
+.left .dot{right:-11px;}
+.right .dot{left:-11px;}
+.badge{
+ display:inline-block;
+ background:#002efc12;
+ color:var(--primary);
+ padding:6px 12px;
+ border-radius:20px;
+ font-size:13px;
+ font-weight:bold;
+ margin-bottom:12px;
 }
-
-.journey-grid::before {
-    content: "";
-    position: absolute;
-    top: 90px;
-    left: 15%;
-    width: 70%;
-    height: 5px;
-    background: linear-gradient(to right, #002efc, #8aa4ff, #002efc);
-    z-index: -1;
-    border-radius: 20px;
-}
-
-.journey-card {
-    background: white;
-    border: 1px solid var(--light);
-    border-radius: 22px;
-    padding: 45px 30px;
-    position: relative;
-    transition: 0.45s;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.journey-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(135deg, rgba(0, 46, 252, 0.08), transparent);
-    opacity: 0;
-    transition: 0.4s;
-}
-
-.journey-card:hover::before {
-    opacity: 1;
-}
-
-.journey-card:hover {
-    transform: translateY(-12px);
-    border-color: #002efc;
-    box-shadow: 0 18px 40px rgba(0, 46, 252, 0.18);
-}
-
-.step {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: #002efc;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    transition: 0.4s;
-}
-
-.journey-card:hover .step {
-    transform: rotate(360deg);
-}
-
-.icon {
-    width: 80px;
-    height: 80px;
-    background: #002efc12;
-    color: #002efc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 18px;
-    font-size: 40px;
-    margin-bottom: 28px;
-    transition: 0.45s;
-}
-
-.journey-card:hover .icon {
-    background: #002efc;
-    color: white;
-    transform: scale(1.08) rotate(-6deg);
-}
-
-.journey-card h3 {
-    font-size: 24px;
-    margin-bottom: 18px;
-}
-
-.journey-card p {
-    color: #666;
-    line-height: 1.8;
-}
+h3{margin-bottom:10px}
+p{line-height:1.7;color:var(--text)}
 </style>
+=======================================
