@@ -1,35 +1,132 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav>
-        <div class="logo">
-            <img src="./assets/logo.png" alt="">
-        </div>
-        <div class="nav-links">
-            <ul>
-                <li><a href="">Speakers</a></li>
-                <li><a href="">Schedule</a></li>
-                <li><a href="">Tracks</a></li>
-                <li><a href="">Venue</a></li>
-                <li><a href="">Blog</a></li>
-            </ul>
-        </div>
-        <div>
-            <button class="register-now">Register Now</button>
-        </div>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="" />
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="">Speakers</a></li>
+          <li><a href="">Schedule</a></li>
+          <li><a href="">Tracks</a></li>
+          <li><a href="">Venue</a></li>
+          <li><a href="">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <button class="register-now">Register Now</button>
+      </div>
     </nav>
     <header>
-        <div>
-            <h1>Code. <em>Connect.</em> Create.</h1>     
-            <p style="color: rgba(255, 255, 255, 0.89);">Join 4,000+ engineers, founders, and builders at the premier developer <br>conference of 2026. Three days of cutting-edge talks, hands-on workshops,<br> and meaningful connections.</p>
-            <button>Register Now</button>
-        </div>
+      <div>
+        <h1>Code. <em>Connect.</em> Create.</h1>
+        <p style="color: rgba(255, 255, 255, 0.89)">
+          Join 4,000+ engineers, founders, and builders at the premier developer
+          <br />conference of 2026. Three days of cutting-edge talks, hands-on
+          workshops,<br />
+          and meaningful connections.
+        </p>
+        <button>Register Now</button>
+      </div>
     </header>
-</body>
+    <main>
+      <section class="meet-the-speakers">
+        <h1>Meet the Speakers</h1>
+        <section class="speaker-container">
+          <div class="card">
+            <div>
+              <img src="./assets/andrej.png" alt="Andrej Karpathy" />
+            </div>
+            <div class="img-text">
+              <p class="role">AI / ML</p>
+              <h4>Andrej Karpathy</h4>
+              <p class="job-site">Pretraining team, Anthropic</p>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <img src="./assets/demis.png" alt="Demis Hassabis" />
+            </div>
+            <div class="img-text">
+              <p class="role">Cloud & DevOps</p>
+              <h4>Demis Hassabis</h4>
+              <p class="job-site">Co-Founder and CEO, Google DeepMind</p>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <img src="./assets/gary.png" alt="Gary Marcus" />
+            </div>
+            <div class="img-text">
+              <p class="role">Frontend</p>
+              <h4>Gary Marcus</h4>
+              <p class="job-site">Staff Engineer, Vercel</p>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <img src="./assets/mustafa.png" alt="Mustafa Suleyman" />
+            </div>
+            <div class="img-text">
+              <p class="role">Security</p>
+              <h4>Mustafa Suleyman</h4>
+              <p class="job-site">CEO of Microsoft AI</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="pricing">
+        <h1>Secure Your Spot</h1>
+        <p>Early-bird pricing ends August 15, 2026.</p>
+        <section class="package-container">
+          <div class="package">
+            <p>STANDARD</p>
+            <h1>$399</h1>
+            <p>per person</p>
+            <hr />
+            <p>󠁯•󠁏󠁏 Access to all 3 conference days</p>
+            <p>󠁯•󠁏󠁏 48 curated technical talks</p>
+            <p>󠁯•󠁏󠁏 2 workshop sessions</p>
+            <p>󠁯•󠁏󠁏 Networking lunch & coffee breaks</p>
+            <p>󠁯•󠁏󠁏 Conference swag bag</p>
+            <p>󠁯•󠁏󠁏 Digital recordings (30 days)</p>
+            <button class="standard-button">Get Standard</button>
+          </div>
+          <div class="package">
+            <p>PRO</p>
+            <h1>$749</h1>
+            <p>per person</p>
+            <hr />
+            <p>󠁯•󠁏󠁏 Everything in Standard</p>
+            <p>󠁯•󠁏󠁏 Unlimited workshop access</p>
+            <p>󠁯•󠁏󠁏 Speaker meet & greet</p>
+            <p>󠁯•󠁏󠁏 VIP networking dinner</p>
+            <p>󠁯•󠁏󠁏 Lifetime recording access</p>
+            <p>󠁯•󠁏󠁏 1-on-1 mentorship (30 min)</p>
+            <button class="pro-button">Get Pro</button>
+          </div>
+          <div class="package">
+            <p>TEAM</p>
+            <h1>$5,999</h1>
+            <p>up to 10 people</p>
+            <hr />
+            <p>󠁯•󠁏󠁏 Everything in Pro (10 seats)</p>
+            <p>󠁯•󠁏󠁏 Dedicated team lounge access</p>
+            <p>󠁯•󠁏󠁏 Private workshop booking</p>
+            <p>󠁯•󠁏󠁏 Company logo on event page</p>
+            <p>󠁯•󠁏󠁏 Recruitment booth (1 day)</p>
+            <p>󠁯•󠁏󠁏 Priority customer support</p>
+            <button class="team-button">Contact us</button>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
 </html>

@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+section{
+
+
+}
 body{
     font-family: "Inter";
 }
@@ -59,4 +63,72 @@ header button{
     cursor: pointer;
     font-weight: bold;
     font-size: 17px;
+}
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card{
+    margin: 10px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.card img{
+    max-width: 100%;
+    border-radius: 12px;
+}
+.meet-the-speakers{
+    padding: 70px;
+}
+.meet-the-speakers h1{
+    text-align: center;
+    padding: 15px;
+}
+.img-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 15px;
+    font-size: 20px;
+}
+.role{
+    color: #1D4ED8;
+    font-size: 10px;
+    font-weight: 600;
+}
+.job-site{
+    color: #575757;
+    font-size: 13px;
+}
+.package-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 140px 8%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 80px;
+}
+.pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.package{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 32px 22px;
+    gap: 15px;
+    border-radius: 15px;
+    background-color: #ffffffe8;
+}
+.standard-button{
+    background-color: #E5E7EB;
+    border: 1px solid #1D4ED8;
+    color: #1D4ED8;
+    padding: 11px;
+    border-radius: 10px;
+    cursor: pointer;
 }
