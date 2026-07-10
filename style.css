@@ -363,7 +363,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 5%;
+    padding: 30px 5%;
     background-color: #0d1b2a;
     color: #ffffff69;
 }
