@@ -39,6 +39,8 @@ a {
     color: white;
     padding: 10px;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 /* Banner */
 header {
@@ -355,4 +357,44 @@ header button {
 .journey-card p {
     color: #666;
     line-height: 1.8;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 8%;
+    background-color: #0d1b2a;
+    color: #ffffff69;
+}
+.footer-links:hover{
+    color: #2278e7f3;
+}
+.register-now:hover{
+    background-color: #e5e7eb;
+    color: #1d4ed8;
+    transition: 0.25s;
+}
+.button-hover:hover{
+    background-color: #8aa4ff;
+    color: #e5e7eb;
+    transition: 0.25s;
+}
+.header-register-now{
+    border: none;
+}
+.header-register-now:hover{
+    background-color: #e5e7eb;
+    color: #1d4ed8;
+    transition: 0.25s;
+    border: none;
+}
+.nav-links ul li:hover{
+    color:#1d4ed8;
+    border-bottom: 2px solid #1d4ed8;
+    transition: 0.25s;
+    font-weight: bold;
+}
+.package:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
 }
