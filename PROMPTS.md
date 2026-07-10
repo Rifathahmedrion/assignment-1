@@ -10,12 +10,13 @@ That must require-
 
 ChatGPT-
 That's a great addition for a DevConf website. However, the design you're describing (interactive timeline with elegant hover animations) is quite substantial—it will easily exceed the maximum response length I can generate in a single message.
-Part 1 — Developer Journey Timeline (HTML)
-<!-- =============================
-     Developer Journey Timeline
-============================== -->
 
-<!-- <section class="journey">
+Part 1 — Developer Journey Timeline (HTML)
+=============================
+Developer Journey Timeline
+============================== 
+
+<section class="journey">
 
     <div class="section-title">
         <span>Developer Journey</span>
@@ -87,8 +88,8 @@ Part 1 — Developer Journey Timeline (HTML)
                 🚀
             </div>
             <h3>Grow Your Career</h3>
- -->
-<!--
+
+Part 2 — Developer Journey Timeline (CSS)
 =====================================
       Developer Journey [AI GENERATED]
 =======================================
@@ -235,4 +236,4 @@ Part 1 — Developer Journey Timeline (HTML)
 .journey-card p {
     color: #666;
     line-height: 1.8;
-} -->
+}
