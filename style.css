@@ -11,6 +11,7 @@ body {
     color: var(--dark);
 }
 /* Navigation */
+
 ul {
     list-style: none;
     display: flex;
@@ -23,7 +24,12 @@ nav {
     margin: 5px;
     padding: 12px 8%;
 }
-
+.nav-links ul li:hover{
+    color:#1d4ed8;
+    border-bottom: 2px solid #1d4ed8;
+    transition: 0.25s;
+    font-weight: bold;
+}
 a {
     text-decoration: none;
     color: inherit;
@@ -43,6 +49,25 @@ a {
     cursor: pointer;
 }
 /* Banner */
+.register-now:hover{
+    background-color: #e5e7eb;
+    color: #1d4ed8;
+    transition: 0.25s;
+}
+.button-hover:hover{
+    background-color: #8aa4ff;
+    color: #e5e7eb;
+    transition: 0.25s;
+}
+.header-register-now{
+    border: none;
+}
+.header-register-now:hover{
+    background-color: #e5e7eb;
+    color: #1d4ed8;
+    transition: 0.25s;
+    border: none;
+}
 header {
     display: flex;
     background-image:linear-gradient(to top right, rgba(0, 0, 0, 0.9) 25%, transparent 60%),url(./assets/banner.jpg);
@@ -196,7 +221,10 @@ header button {
 .package-team {
     background-color: #f8f9fb;
 }
-
+.package:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
 .list ul {
     display: flex;
     flex-direction: column;
@@ -359,35 +387,6 @@ footer{
 }
 .footer-links:hover{
     color: #2278e7f3;
-}
-.register-now:hover{
-    background-color: #e5e7eb;
-    color: #1d4ed8;
-    transition: 0.25s;
-}
-.button-hover:hover{
-    background-color: #8aa4ff;
-    color: #e5e7eb;
-    transition: 0.25s;
-}
-.header-register-now{
-    border: none;
-}
-.header-register-now:hover{
-    background-color: #e5e7eb;
-    color: #1d4ed8;
-    transition: 0.25s;
-    border: none;
-}
-.nav-links ul li:hover{
-    color:#1d4ed8;
-    border-bottom: 2px solid #1d4ed8;
-    transition: 0.25s;
-    font-weight: bold;
-}
-.package:hover{
-    transform: scale(1.15);
-    transition: 0.5s;
 }
 .main-footer{
     display: flex;
