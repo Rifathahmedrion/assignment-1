@@ -362,7 +362,8 @@ header button {
 footer{
     display: flex;
     justify-content: space-between;
-    padding: 50px 8%;
+    align-items: center;
+    padding: 40px 5%;
     background-color: #0d1b2a;
     color: #ffffff69;
 }
