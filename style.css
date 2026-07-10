@@ -221,13 +221,6 @@ header button {
     --dark: #111827;
     --white: #ffffff;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .journey {
     width: min(1200px, 92%);
     margin: 100px auto;
@@ -360,9 +353,6 @@ header button {
 }
 /* Footer */
 footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 30px 5%;
     background-color: #0d1b2a;
     color: #ffffff69;
@@ -398,4 +388,45 @@ footer{
 .package:hover{
     transform: scale(1.15);
     transition: 0.5s;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 8px;
+    color:#666;
+    justify-content: center;
+    text-align: center;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+.fa-facebook:hover{
+    background-color:#1877F2;
+    border-radius: 60%;
+    color: white;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    background-color:#833ab4;
+    border-radius: 70%;
+    color: white;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    border-radius: 60%;
+    color: #1DA1F2;
+    cursor: pointer;
 }
